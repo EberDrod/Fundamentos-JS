@@ -24,6 +24,9 @@ peso -=   jugarAlFutbol
 
 var precioDeVino  = 200.3
 
+// Este total no es tan preciso
 var total = precioDeVino * 100 *  3 / 100
-
+//El modulo de Math.round nos ayuda con la precisión
 var total2 = Math.round(precioDeVino * 100 * 3) / 100
+// Es un metodo que convierte un numero en una cadena, manteniendo un umero especifico de decimales
+var totalStr = total.toFixed(4)
