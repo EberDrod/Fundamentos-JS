@@ -26,7 +26,7 @@ var cantidadDeLetrasDelNombre = nombre.length
 
 //Concatenar Strings
 
-//-var nombreCompleto = nombre + ' ' + apellido
+//-var nombreCompleto = nombre + ' ' + apellido-
 
-// Interpolacion de texto
-var nombreCompleto = `${nombre} ${apellido}`
+// Interpolacion de texto - Ap
+var nombreCompleto = `${nombre} ${apellido.toUpperCase()}`
