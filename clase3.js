@@ -29,4 +29,13 @@ var total = precioDeVino * 100 *  3 / 100
 //El modulo de Math.round nos ayuda con la precisión
 var total2 = Math.round(precioDeVino * 100 * 3) / 100
 // Es un metodo que convierte un numero en una cadena, manteniendo un umero especifico de decimales
-var totalStr = total.toFixed(4)
+var totalStr = total.toFixed(3)
+
+var totalStr = parseFloat(totalStr)
+
+
+//Crear divisiones
+
+var pizza = 8
+var persona = 2
+var pizzaPersona = pizza / persona
