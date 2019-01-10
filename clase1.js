@@ -11,4 +11,11 @@ console.log ('Tengo ' + edad)
 var peso = 75
 
 //Esta funcion configura el nombre en mayuscula
-var nombreEnMayusculas = nombre.toUpperCase()
+//var nombreEnMayusculas = nombre.toUpperCase()
+
+//Esta funcion configura el nombre se convierta en minusculas
+var appellidoEnMinusculas = nombre.toLowerCase()
+
+
+//Esta funcion nos entrega solo la primera letra
+var primeraLetraDelNombre = nombre.charAt()
