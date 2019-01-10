@@ -34,3 +34,6 @@ var nombreCompleto = `${nombre} ${apellido.toUpperCase()}`
 
 //Este string selecciona solo la letra de cada uno de los strigns
 var str = nombre.charAt(1) + nombre.charAt(2)
+
+// Esta funcion  toma los caracteres que le digas sustituyendo .chaArt
+var str2 = nombre.substr(1,2)
