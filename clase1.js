@@ -23,3 +23,10 @@ var primeraLetraDelNombre = nombre.charAt()
 
 //Catidad de letras que tiene un String
 var cantidadDeLetrasDelNombre = nombre.length
+
+//Concatenar Strings
+
+//-var nombreCompleto = nombre + ' ' + apellido
+
+// Interpolacion de texto
+var nombreCompleto = `${nombre} ${apellido}`
