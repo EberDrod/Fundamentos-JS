@@ -36,4 +36,4 @@ var nombreCompleto = `${nombre} ${apellido.toUpperCase()}`
 var str = nombre.charAt(1) + nombre.charAt(2)
 
 // Esta funcion  toma los caracteres que le digas sustituyendo .chaArt
-var str2 = nombre.substr(1,2)
+var str2 = nombre.substr(1,3)
