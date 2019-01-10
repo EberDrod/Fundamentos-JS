@@ -30,3 +30,7 @@ var cantidadDeLetrasDelNombre = nombre.length
 
 // Interpolacion de texto - Ap
 var nombreCompleto = `${nombre} ${apellido.toUpperCase()}`
+
+
+//Este string selecciona solo la letra de cada uno de los strigns
+var str = nombre.charAt(1) + nombre.charAt(2)
