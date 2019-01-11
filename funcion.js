@@ -12,4 +12,8 @@ function  imprimirEdad(n, e){
 }
 
 imprimirEdad(nombre, edad)
- 
+imprimirEdad('Vicky', 28)
+imprimirEdad('Erick', 24)
+imprimirEdad('Dario', 27)
+imprimirEdad(25,'carlos')
+imprimirEdad('Juan ,')
