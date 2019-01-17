@@ -53,7 +53,16 @@ imprimiNombeEnMayusculas(dario)
 //imprimiNombeEnMayusculas({nombre: 'Pepito' })
 //imprimiNombeEnMayusculas2({apellido: 'Gomez' })
 
+//Funcion agregada para aaumentar la edad
+// Los objetos se pasan con referencia
 function cumpleanos(persona){
-        persona.edad += 1
+    return{
+        ...persona,
+        edad: persona.edad += 1
+
+      }
+
 
 }
+
+ // El objeto que modificamos se vuelve una nueva Funcion
