@@ -1,5 +1,6 @@
 var nombre = 'Eber'
 
+
 /// Estructura 1
 //function imprimirNombreEnMayusculas(){
 //  nombre = nombre.toUpperCase()

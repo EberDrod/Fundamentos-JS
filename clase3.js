@@ -1,6 +1,4 @@
 var edad = 27
-
-
 //edad = edad + 1
 
 //Modo reducido
@@ -38,4 +36,4 @@ var totalStr = parseFloat(totalStr)
 
 var pizza = 8
 var persona = 2
-var pizzaPersona = pizza / persona
+var pizza Persona = pizza / persona

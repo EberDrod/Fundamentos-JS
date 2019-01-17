@@ -30,9 +30,6 @@ function imprimiNombeEnMayusculas2({apellido}){
 
 
 }
-
-
-
 imprimiNombeEnMayusculas(eber)
 imprimiNombeEnMayusculas(dario)
 imprimiNombeEnMayusculas({nombre: 'Pepito' })
