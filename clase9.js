@@ -7,7 +7,13 @@ x == y , x === y     */
  var eber = {
     nombre: 'Eber'
 }
+/*Es un objeto que tiene diferente nombre, comparacion
+  var otraPersona = eber*/
 
- var otraPersona = {
-      nombre: 'Eber'
-}
+// Crear otra persona,
+/*  var otraPersona = {
+    ...eber
+
+  }*/
+
+// Este es un tema de memoria RAM, 
