@@ -46,8 +46,6 @@ function imprimirNombreYedad({nombre,edad}){
 
 }
 
-
-
 imprimiNombeEnMayusculas(eber)
 imprimiNombeEnMayusculas(dario)
 //imprimiNombeEnMayusculas({nombre: 'Pepito' })
