@@ -8,4 +8,5 @@ do {
   contador++
 }while(!llueve())
 
-console.log (`Fui a ver si llovia ${contador} veces`)
+var frecuencia = contador === 1 ? "vez":"veces";
+console.log(`Fui a ver si llovia ${contador}${frecuencia}`);
