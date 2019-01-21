@@ -38,5 +38,5 @@ function permitirAcceso(persona) {
       console.log('ACCESO DENEGADO')
   }
 }
-// arrow fuction es menor de edad
+// arrow fuction es menor de edad se declaro
 const esMenorDeEdad = ({edad}) => edad <= MAYORIA_DE_EDAD
