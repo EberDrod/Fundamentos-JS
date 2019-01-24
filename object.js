@@ -1,8 +1,11 @@
 ///No existe la herencia como tal, son clases de JS
 /*Creando prototipos*/
-function Persona(){
-  console.log ('Me ejecutaron')
+function Persona(nombre, apellido){
+  // Asi se guarda
+  this.nombre = nombre
+  this.apellido = apellido
+  return this
 }
 
-
-var eber = new Persona ()
+//New se usa para crear prototipos si ponemos eber en el navgador nos aparece
+var eber = new Persona ('eber','Peña')
