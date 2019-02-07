@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tiempo de ejecución de JS</title>
+</head>
+<body>
+    <script>
+        console.log ('a')  
+        // Se ejecuta (b dentro de un segundo)
+       /* setTimeout(function () {
+            console.log('b')
+        }, 2000)*/
+        //ESTA ES UNA ARROW v
+        setTimeout(() => console.log('b'), 2000)
+
+        console.log ('c')
+    </script>
+</body>
+</html> 
